@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compile",
+            "command": "clang",
+            "args": [
+                "my-work/part2/homework1.c",
+                "-g",
+                "-o",
+                "build/hw1"
+            ],
+            "type": "shell"
+        }
+    ],
+}
